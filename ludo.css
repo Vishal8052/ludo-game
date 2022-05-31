@@ -1,0 +1,104 @@
+table{
+	
+	border-collapse: collapse;
+	border:4px solid red;
+	height: auto;
+	width: auto;
+}
+tr{
+	
+	border:4px solid rgb(229, 88, 22);
+}
+td{
+    width:50px;
+    height: 50px;
+    background-color: violet;
+	border: 4px solid black;
+	border-collapse:collapse; 
+}
+td:hover{
+	background-color: red;
+}
+#blank{
+
+	background-color: white;
+	border:0px;
+}
+
+.block {
+    display: block;
+    height: 100%;
+    width: 100%;
+    color: rgb(250, 250, 250);
+    background-color: rgb(69, 12, 110);
+    padding: 14px 28px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.block[enabled]{
+    background-color: rgb(212, 109, 25);
+    cursor: pointer;
+}
+
+.block[enabled]:hover {
+  background-color: rgb(9, 128, 54);
+  cursor: pointer;
+}
+
+.move[enabled]
+{
+  cursor: pointer;
+}
+
+#num{
+
+	margin: -100px 0px 0px 300px;
+}
+
+@media only screen and (min-width:900px) {
+#num{
+
+	margin: -2px 0px 0px 300px;
+}
+
+div.left{
+	font-size: 40px;
+	position: absolute;
+	background-color: rgb(254, 254, 254);
+  border: 3px solid green;
+}
+
+div.right{
+	font-size: 40px;
+	position: absolute;
+	background-color: white;
+  right: 0px;
+  border: 3px solid green;
+}
+	
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+  background: blue;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+}

@@ -56,17 +56,17 @@ function ROLL()
   	document.getElementById("roll1").disabled = false;
  
     switch(ran){
-    	case 1:slid.src="/images/1.jpg";
+    	case 1:slid.src="./images/1.jpg";
     	break;
-    	case 2:slid.src="/images/2.jpg";
+    	case 2:slid.src="./images/2.jpg";
     	break;
-    	case 3:slid.src="/images/3.jpg";
+    	case 3:slid.src="./images/3.jpg";
     	break;
-    	case 4:slid.src="/images/4.jpg";
+    	case 4:slid.src="./images/4.jpg";
     	break;
-    	case 5:slid.src="/images/5.jpg";
+    	case 5:slid.src="./images/5.jpg";
     	break;
-    	case 6:slid.src="/images/6.jpg";
+    	case 6:slid.src="./images/6.jpg";
     	break;
     } 
 
